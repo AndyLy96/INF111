@@ -1,0 +1,52 @@
+UTILSIR javadoc!!!
+
+Cours 1
+=================================================
+
+Declaration de variable
+-----------------------
+String message;
+int x;
+float pi;
+double frequence;
+char c;
+
+Affectation
+-----------
+message = "Bonjour";
+x = 31;
+pi = 3.1234;
+
+Affichage de variable
+---------------------
+System.out.print("Hello world!");
+
+System.out.println(message);
+
+System.out.println("Resultat : " + x);
+
+message2 = message + "la suite";
+
+message3 = message.concat("la suite");
+
+Saisie au clavier (premier exemple de programme)
+------------------------------------------------
+import java.util.Scanner;                                                                                                        
+
+public class Echo {
+
+	public static void main(String[] args){
+		String ligne;
+		Scanner entree = new Scanner(System.in);
+		
+		System,out.print("Tappez quelque chose stp")
+		ligne = entree.nextLine();
+		System.out.println("Vous avez entré : " + ligne);
+	}
+	
+}
+
+
+
+Cours 2
+==================================================
