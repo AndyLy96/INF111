@@ -14,7 +14,42 @@ public class Lab1 {
 
         System.out.println(tempCelcius + " C = " + tempFarenheit + " F");
     }
+
+
+    CORRIGÉ
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        System.out.print("Entre numéro :" )
+        double celcius = in.nextDouble();
+
+        double farenheit = celcius * (9.0/5.0) + 32.0;
+
+    }
+
     */
+
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        System.out.print("Entre numéro :" );
+
+        //TOUJOURS traité les erreures potentiel, ici l'erreur potentiel c'est
+        //si l'utilisatuer tape quelquchose qui n'est pas un double
+        /*
+        if (in.hasNextDouble()){
+            double celcius = in.nextDouble();
+            double farenheit = celcius * (9.0/5.0) + 32.0;
+            System.out.printf("%.1f C = %.1f F\n", celcius, farenheit);
+        }
+        else {
+            System.out.println("Entree invalide");
+        }
+
+        Maybe try to do it in a loop
+        So that it always searches for the right input
+
+        */
+
+    }
 
     /* EXERCICE 3.3
     public static void main(String[] args) {
