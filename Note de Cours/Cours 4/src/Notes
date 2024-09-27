@@ -1,0 +1,21 @@
+Analyse des algorithmes:
+    - Étude de l'utilisation des ressoures (temps processeur et mémoire) par un
+    algorithme donné en fonction de la taille du problème (quantité de données à traité)
+    - Notation Grand-O :
+        - On regroupes les algorithmes dans des classes de compelxité appelées "Ordres".
+        On parle d'ordre de croissance. On note ces ordres O(classe).
+        On dit qu'une fonction f est élément de O(classe).
+        EX: F est ensemble de O(n^2)
+
+Classes de complexité
+    - Temps constant. O(1)
+        - Accès à un élément de tableau par son indice.
+    - Temps Linéaire. O(n)
+        - Afficher le contenu d'un tableau. Si le tableau est deux fois plus grand
+        ça va prendre deux fois plus de temps.
+        - Accès à un élément dans une liste chainée.
+    - Temps Quadratique. O(n^2)
+        - Recherche séquentielle dans un tableau 2D.
+    - Temps Logarithmique. O(log(n))
+        - Recherche Dichotomique sur un tableau trié.
+        - Ie. Fouille binaire (Binary search).
